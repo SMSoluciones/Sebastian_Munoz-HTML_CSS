@@ -1,0 +1,44 @@
+//Navegation NavBar
+
+/*NavBar*/
+.navbar-brand{
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.navbar-brand img{
+    height: 80px;
+    padding-left: 20%;
+}
+
+#navbarNav{
+    justify-content: right;
+    padding-right: 5%;
+}
+
+.navbar-dark{
+    background-color: #333333b9;
+    backdrop-filter: blur(3px);
+}
+
+.navegacion ul {
+    animation: navegacion 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes navegacion{
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/*END NavBar*/
+
+//End Navegation
