@@ -1,5 +1,11 @@
-//Colores
-@import "utilities/variables";
+//Utilities
+
+//Mixin
+@import "utilities/mixins";
+//Maps
+@import "utilities/maps";
+
+//Layout
 
 //Reset
 @import "base/reset";
@@ -7,6 +13,8 @@
 @import "layout/header";
 //NavBar
 @import "layout/navigation";
+
+
 
 //_HOME
 
@@ -19,14 +27,12 @@
 }
 
 .container__item1{
-    display: flex;
+    @include flexible (flex , center , center);
     background-color: $color-secundario;
     margin: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
     max-width: auto;
-    justify-content: center;
-    align-content: center;
     border-radius: 20px;
     flex-direction: column;
 
@@ -53,25 +59,21 @@
 //Contanos Containers
 
 .contanosHome{
+    @include flexible (flex , space-around , center);
     filter: drop-shadow(-40px 30px 1px $color-secundario);
-    display: flex;
     background-color: black;
     height: 200px;
     margin: 5%;
-    align-items: center;
-    justify-content:space-around;
     margin-top: 200px;
 }
 
 .contanos__boton{
+    @include flexible (flex , center , center);
     background-color: white;
     height: 50px;
     width: 200px;
     border-radius: 20px;
-    display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
 
     a{
         color: black;
@@ -103,13 +105,11 @@
 //Footer
 
 .flex_footer{
+    @include flexible ( flex , space-around , center);
     background-color: black;
     height: 200px;
     width: auto;
-    display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .redes{
@@ -129,32 +129,27 @@
 //_Designer
 
 .conteiner_designer{
+    @include flexible (flex , center , center);
     width: auto;
-    display: flex;
     flex-direction:row;
-    justify-content: center;
     margin-bottom: 2%;
 }
 
 .container__titulo{
+    @include flexible (flex , center , center);
     background-color: black;
     width: 100px;
-    display: flex;
+    height: 170px;
     writing-mode:vertical-rl;
     text-orientation:mixed;
-    align-items: center;
-    justify-content: center;
     font-weight: bold;
     padding: 5px;
 }
 
 .container__contenido{
-
+    @include flexible (flex , center , center);
     background-color: $color-secundario;
-    display: flex;
     width: 1000px;
-    align-items: center;
-    justify-content: center;
     padding: 50px;
 }
 
@@ -292,7 +287,6 @@
         filter: drop-shadow(5px 5px 1px black);
     }
 }
-
 
 .mapaContacto{
     display: flex;

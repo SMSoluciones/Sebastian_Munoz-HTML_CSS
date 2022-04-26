@@ -59,16 +59,10 @@
 
 //END Header Home
 
-//_HEader Servicios
+//_Header Servicios
 .header_servicios{
+    @extend .headerHome;
     background-image: url(../assets/img/servicios.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: bottom;
-    width: auto;
-    height: 700px;
-    display: flex;
-    flex-direction: column;
 }
 
 .cajafrase__header{
@@ -89,14 +83,9 @@
 
 //_Header Designer
 .header_designer{
-    background-image: url(../assets/img/designer.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    @extend .headerHome;
     background-position: top;
-    width: auto;
-    height: 700px;
-    display: flex;
-    flex-direction: column;
+    background-image: url(../assets/img/designer.jpg);
 }
 
 //END Header Designer
@@ -110,14 +99,8 @@
 
 //_Header Contacto
 .header_contacto{
+    @extend .headerHome;
     background-image: url(../assets/img/contacto.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: bottom;
-    width: auto;
-    height: 700px;
-    display: flex;
-    flex-direction: column;
 }
 
 //END Header Contacto
