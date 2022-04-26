@@ -19,7 +19,7 @@
 }
 
 .navbar-dark{
-    background-color: #333333b9;
+    background-color: map-get($colores , gris-trasparante);
     backdrop-filter: blur(3px);
 }
 

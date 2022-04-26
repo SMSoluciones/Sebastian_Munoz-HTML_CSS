@@ -67,7 +67,7 @@
 
 .cajafrase__header{
     display: flex;
-    background-color: #333333c5;
+    background-color: map-get($colores , gris-trasparante );
     width: auto;
     height: 200px;
     text-align: center;

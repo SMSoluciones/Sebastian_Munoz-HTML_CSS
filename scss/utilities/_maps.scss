@@ -1,5 +1,8 @@
 //Colores
-$fondo: #202124;
-$color-secundario: #1a1a1a;
-$color-terciario: #338af3;
-$gris-selectores: gray;
+$colores: (
+    "fondo": #202124,
+    "oscuro": #1a1a1a,
+    "celeste": #338af3,
+    "gris": gray,
+    "gris-trasparante": #333333c5,
+);
