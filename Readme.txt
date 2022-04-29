@@ -1,3 +1,7 @@
+TERCERA ENTREGA DE PROYECTO FINAL
+
+Se actualizaron cambios que se detallaran en el comentario de entrega.
+
 DESAFÍO SASS II + SEO
 
 Cambios realizados dentro de la WEB:
