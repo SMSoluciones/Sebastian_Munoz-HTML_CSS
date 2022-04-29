@@ -60,7 +60,7 @@
 
 .contanosHome{
     @include flexible (flex , space-around , center);
-    filter: drop-shadow(-40px 30px 1px $color-secundario);
+    filter: drop-shadow(-40px 30px 1px #1a1a1a);
     background-color: black;
     height: 200px;
     margin: 5%;
@@ -148,9 +148,14 @@
 
 .container__contenido{
     @include flexible (flex , center , center);
-    background-color: $color-secundario;
+    background-color: map-get($colores , oscuro );
+    flex-direction: column;
     width: 1000px;
     padding: 50px;
+
+    h3{
+        color: map-get($colores, celeste );
+    }
 }
 
 //__END Designer
@@ -377,7 +382,7 @@
     
     //_mqPorfolio
     .containerPorfolio{
-        background-color: $color-secundario;
+        background-color: map-get($colores , oscuro );
         margin:1vh;
 
         p{

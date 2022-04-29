@@ -30,7 +30,14 @@ q {
 .aliCenter {
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  font-size: 40px;
+  color: white;
+  font-weight: bold; }
+  .aliCenter ul {
+    font-size: 20px;
+    list-style: none;
+    font-weight: lighter; }
 
 .idiomas {
   width: 30px;
@@ -120,7 +127,7 @@ q {
   padding-right: 5%; }
 
 .navbar-dark {
-  background-color: #333333b9;
+  background-color: #333333c5;
   backdrop-filter: blur(3px); }
 
 .navegacion ul {
@@ -243,8 +250,11 @@ q {
   align-items: center;
   justify-content: center;
   background-color: #1a1a1a;
+  flex-direction: column;
   width: 1000px;
   padding: 50px; }
+  .container__contenido h3 {
+    color: #338af3; }
 
 .headerPorfolio {
   margin: 0%; }
