@@ -63,33 +63,34 @@
         <!--CONTACTO-->
         <h1 class="text-center pt-5">CONTACTO</h1>>
         <main>
-            <form method="get" name="contacto" action="procesar.php" enctype="multipart/form-data">
-            <div class="containerFormulario">
-                <!--DATOS-->
-                <div class="container__datos">
-                    <h3 class="ali__form"><legend>+DEJANOS TUS DATOS</legend></h3>
-                    <label for="Nombre: ">
-                        Nombre: 
-                    </label>
-                    <input type="text" name="nombre" placeholder="" required>
-                
-                    <label for="Localidad: ">
-                        Localidad: 
-                    </label>
-                    <input type="text" name="localidad" placeholder="">
-                
-                    <label for="Email: ">
-                        Email: 
-                    </label>
-                    <input type="text" name="email" placeholder="" required>
-                
-                    <label for="Telefono: ">
-                        Teléfono: 
-                    </label>
-                    <input type="text" name="telefono" placeholder="" required>
+            <form name="contacto" action="https://formspree.io/f/meqnpbdo" enctype="multipart/form-data" method="POST" enctype="multipart/form-data">
+                <div class="containerFormulario">
+                    <!--DATOS-->
+                    <div class="container__datos">
+                        <h3 class="ali__form"><legend>+DEJANOS TUS DATOS</legend></h3>
+
+                        <label for="Nombre: ">
+                            Nombre: 
+                            <input type="text" name="nombre" required>
+                        </label>
                     
-                <!--SELECTOR-->
-                    <h3>SECTOR</h3>
+                        <label for="Localidad: ">
+                            Localidad: 
+                            <input type="text" name="localidad">
+                        </label>
+                    
+                        <label for="Email: ">
+                            Email: 
+                            <input type="email" name="email" required>
+                        </label>
+                    
+                        <label for="Telefono: ">
+                            Teléfono: 
+                            <input type="text" name="telefono" required>
+                        </label>
+
+                    <!--SELECTOR-->
+                        <h3 class="tituloSelector">SECTOR</h3>
                         <select name="sector">
                             <option value="producto">Producto</option>
                             <option value="metalurgia">Metalurgia</option>
@@ -98,17 +99,18 @@
                             <option value="procesos">Procesos</option>
                             <option value="otros">Otros...</option>
                         </select>                    
-                </div>               
-                <!--CAJA DE COMENTARIOS-->
-                <div class="container__cuadro">
-                    <h3><legend>+CONTANOS TU IDEA</legend></h3>
-                    <textarea name="contanos" id="" cols="50" rows="10"></textarea>
-                </div>
-                <!---BOTONERA-->
-                <div class="botonerasContacto">                    
-                    <input type="reset" value="ADJUNTAR" class="botones__contacto">
-                    <input type="reset" value="BORRAR" class="botones__contacto">
-                    <input type="submit" value="ENVIAR" class="botones__contacto">
+                    </div>               
+                    <!--CAJA DE COMENTARIOS-->
+                    <div class="container__cuadro">
+                        <h3><legend>+CONTANOS TU IDEA</legend></h3>
+                        <textarea name="contanos" id="" cols="50" rows="10"></textarea>
+                    </div>
+                    <!---BOTONERA-->
+                    <div class="botonerasContacto">                    
+                        <input type="submit" value="ADJUNTAR" class="botones__contacto">
+                        <input type="reset" value="BORRAR" class="botones__contacto">
+                        <input type="submit" value="ENVIAR" class="botones__contacto">
+                    </div>
                 </div>
             </form>
         </main>
