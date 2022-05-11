@@ -57,7 +57,7 @@
             </nav>
             <!--END Navbar-->
             <div class="cajafrase__header text-center">
-                <div>
+                <div class="ajusteFrase">
                     <q>El mundo que hemos creado es un producto de nuestro pensamiento; no se puede cambiar el mundo sin cambiar nuestra forma de pensar.</q>
                     <p>Taiichi Ohno</p>
                 </div>
@@ -67,27 +67,88 @@
     
     <!--SERVICES-->
     <main>
-        <h1 class="text-center pt-5">SERVICIOS</h1>
-        <div class="aliCenter">
-            <ul>
-                <li>
-                    PRODUCT DESIGN>
-                </li>
-                <li>
-                    IMAGEN>
-                </li>
-                <li>
-                    MATRICERIA>
-                </li>
-                <li>
-                    CAPACITACION>
-                </li>
-                <li>
-                    DISPOSITIVOS>
-                </li>
-            </ul>
-        </div> 
+        <section class="text-center m-5">
+            <h1>SERVICIOS</h1>
+            <div class="accordion border-0" id="accordionExample">
+                <!--Item1-->
+                <div class="accordion-item bg-secondary mb-3">
+                    <h2 class="accordion-header" id="headingUno">
+                        <button class="accordion-button bg-black text-light border-0" type="button" data-bs-toggle="collapse"    data-bs-target="#collapseUno" aria-expanded="true"     aria-controls="collapseUno">
+                        PRODUCT DESIGN>
+                        </button>
+                    </h2>
+                <div id="collapseUno" class="accordion-collapse collapse show" aria-labelledby="headingUno" data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-light">
+                        Desarrollamos productos industriales desde la idea básica hasta la fabricación definitiva. Se comienza desarrollando el concepto para luego crear un modelado 3D y una maquetación a escala para el análisis productivo. Optimizamos al máximo los procesos dando el mejor Nesting posible reduciendo desperdicios innecesarios.
+                    </div>
+                </div>
+                <!--END Item1-->
+            </div>
+            <div class="accordion border-0" id="accordionExample">
+            <!--Item2-->
+                <div class="accordion-item bg-secondary">
+                    <h2 class="accordion-header" id="headingDos">
+                        <button class="accordion-button bg-black text-light border-0" type="button" data-bs-toggle="collapse"    data-bs-target="#collapseDos" aria-expanded="true"     aria-controls="collapseDos">
+                            IMAGEN>
+                        </button>
+                    </h2>
+                <div id="collapseDos" class="accordion-collapse collapse show" aria-labelledby="headingDos" data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-light">
+                        Nos encargamos de desarrollar una imagen corporativa actual y genuina para tu empresa y/o emprendimiento. 
+                    </div>
+                </div>
+            <!--END Item2-->
+            </div>
+            <div class="accordion border-0" id="accordionExample">
+                <!--Item3-->
+                <div class="accordion-item bg-secondary">
+                    <h2 class="accordion-header" id="headingTres">
+                        <button class="accordion-button bg-black text-light border-0" type="button" data-bs-toggle="collapse"   data-bs-target="#collapseTres" aria-expanded="true"     aria-controls="collapseTres">
+                            MATRICERÍA>
+                        </button>
+                    </h2>
+                <div id="collapseTres" class="accordion-collapse collapse show" aria-labelledby="headingTres"data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-light">
+                        Generamos matricería mediante el desarrollo 3D y la correcta programación CNC mediante CAMWorks. Se puedengenerar desde matricería para PRFV hasta matricería para termo formado de piezas plásticas.
+                    </div>
+                </div>
+                <!--END Item3-->
+            </div>
+            <div class="accordion border-0" id="accordionExample">
+                <!--Item4-->
+                    <div class="accordion-item bg-secondary">
+                        <h2 class="accordion-header" id="headingCuatro">
+                            <button class="accordion-button bg-black text-light border-0" type="button" data-bs-toggle="collapse"   data-bs-target="#collapseCuatro" aria-expanded="true"     aria-controls="collapseCuatro">
+                                CAPACITACIÓN>
+                            </button>
+                        </h2>
+                    <div id="collapseCuatro" class="accordion-collapse collapse show" aria-labelledby="headingCuatro"data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-light">
+                        Capacitamos y asesoramos a pequeñas y medianas empresas en todo lo que concierne a Diseño de producto.Poseemos un amplio conocimiento en nuevas tecnologías y softwares de desarrollo tanto 3D como 2D. (Ej:SolidWorks, Rhinoceros, Blender, etc.)
+                    </div>
+                </div>
+                <!--END Item4-->
+            </div>
+            <div class="accordion border-0" id="accordionExample">
+                <!--Item4-->
+                    <div class="accordion-item bg-secondary">
+                        <h2 class="accordion-header" id="headingCinco">
+                            <button class="accordion-button bg-black text-light border-0" type="button" data-bs-toggle="collapse"   data-bs-target="#collapseincoo" aria-expanded="true"     aria-controls="collapseCinco">
+                                DISPOSITIVOS>
+                            </button>
+                        </h2>
+                    <div id="collapseCinco" class="accordion-collapse collapse show" aria-labelledby="headingCinco"data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-light">
+                        Generamos dispositivos de fabricación para ayudar a que tu industria optimice los tiempos y reduzca las pérdidas de valor innecesarias.
+                    </div>
+                </div>
+                <!--END Item4-->
+            </div>
+                
+        </section>   
     </main>
+
+
 
     <footer class="flex_footer">    
         <div class="redes"><a href="https://www.facebook.com/sebastian.m90"><img src="../assets/img/facebook.png" alt="logo facebook"></a>

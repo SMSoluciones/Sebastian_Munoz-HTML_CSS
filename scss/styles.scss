@@ -49,7 +49,7 @@
     &:hover{
         display: flex;
         background-color: black;
-        cursor: pointer;
+        cursor: default;
     }
 }
 
@@ -372,6 +372,7 @@
     //_mqServicios
     .cajafrase__header q{
         font-size: 2vh;
+        
     }
     //__mqServicios
     
